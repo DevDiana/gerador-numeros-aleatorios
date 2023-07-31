@@ -1,27 +1,30 @@
-# GeradorNumerosAleatorios
+# Gerador de Números Aleatórios em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+Este é um projeto simples em Angular que implementa um Gerador de Números Aleatórios. A aplicação permite que o usuário informe um valor mínimo e um valor máximo, e em seguida, gera um número aleatório entre esses dois valores.
+Link para visualizar o projeto: `https://gerador-numero-aleatorio.netlify.app/`
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instruções de Uso:
 
-## Code scaffolding
+1. Certifique-se de ter o Node.js e o Angular CLI instalados em seu computador.
+2. Faça o download ou clone este repositório em sua máquina local.
+3. Navegue até o diretório do projeto no terminal.
+4. Instale as dependências do projeto executando o comando: `npm install`
+5. Para iniciar a aplicação em ambiente de desenvolvimento, execute o comando: `ng serve`
+6. Acesse a aplicação em seu navegador em: `http://localhost:4200/`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades:
 
-## Build
+- Insira o valor mínimo e o valor máximo para gerar o número aleatório.
+- Clique no botão "Gerar Número" para obter um número aleatório entre os valores informados.
+- O número gerado será exibido abaixo do botão "Gerar Número".
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologias utilizadas:
 
-## Running unit tests
+- Angular: A estrutura de desenvolvimento para a criação de aplicações web em Single Page Application (SPA) usando TypeScript.
+- Bootstrap: Biblioteca de estilos CSS responsivos que facilita a criação de interfaces atraentes e responsivas.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Autora
 
-## Running end-to-end tests
+[Diana Regina] - [devdianaregina@gmail.com](mailto:devdianaregina@gmail.com)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
