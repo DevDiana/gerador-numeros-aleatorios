@@ -1,11 +1,23 @@
-<h1>Gerador de Números Aleatórios</h1>
-<form>
-  <label for="min">Valor mínimo:</label>
-  <input type="number" id="min" name="min" [(ngModel)]="min" required>
-  <label for="max">Valor máximo:</label>
-  <input type="number" id="max" name="max" [(ngModel)]="max" required>
-  <button type="button" (click)="generateRandomNumber()">Gerar Número</button>
-</form>
-<div *ngIf="randomNumber !== null">
-  <p>Número Aleatório: {{ randomNumber }}</p>
+<h1 class="text-center">Gerador de Números Aleatórios</h1>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        <div class="form-group">
+          <label for="min">Valor mínimo:</label>
+          <input type="number" id="min" name="min" [(ngModel)]="min" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="max">Valor máximo:</label>
+          <input type="number" id="max" name="max" [(ngModel)]="max" class="form-control" required>
+        </div>
+        <button type="button" class="btn btn-primary" (click)="generateRandomNumber()">Gerar Número</button>
+      </form>
+    </div>
+  </div>
+  <div *ngIf="randomNumber !== null" class="row justify-content-center">
+    <div class="col-md-6">
+      <p class="mt-3 numero-gerado">Número Aleatório: <b> {{ randomNumber }}</b></p>
+    </div>
+  </div>
 </div>

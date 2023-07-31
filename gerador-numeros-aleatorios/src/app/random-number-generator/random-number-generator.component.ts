@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-random-number-generator',
   templateUrl: './random-number-generator.component.html',
- // styleUrls: ['./random-number-generator.component.css']
+  styleUrls: ['./random-number-generator.component.scss']
 })
 export class RandomNumberGeneratorComponent {
   min: any;
