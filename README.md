@@ -1,4 +1,7 @@
-# Gerador de Números Aleatórios em Angular
+![image](https://github.com/DevDiana/gerador-numeros-aleatorios/assets/63608845/a07c87cf-b31d-4e0c-b3cf-95d7a023c517)
+
+
+# Gerador de números aleatórios
 
 Este é um projeto simples em Angular que implementa um Gerador de Números Aleatórios. A aplicação permite que o usuário informe um valor mínimo e um valor máximo, e em seguida, gera um número aleatório entre esses dois valores.
 Link para visualizar o projeto: `https://gerador-numero-aleatorio.netlify.app/`
