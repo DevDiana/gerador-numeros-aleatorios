@@ -1,3 +1,5 @@
+![image](https://github.com/DevDiana/gerador-numeros-aleatorios/assets/63608845/a07c87cf-b31d-4e0c-b3cf-95d7a023c517)
+
 # GeradorNumerosAleatorios
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
